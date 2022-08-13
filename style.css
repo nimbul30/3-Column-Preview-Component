@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+.card {
+  padding: 35px;
+  margin: 0 35px;
+}
+
+.orange {
+  margin-top: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.dark-cyan {
+  margin-bottom: 50px;
+  border-radius: 0 0 10px 10px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: white;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px;
+  width: 125px;
+  margin-top: 20px;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.btnOrange {
+  color: var(--Bright-orange)
+}
+
+.btnCyan {
+  color: var(--Dark-cyan)
+}
+
+.btnDarkCyan {
+  color: --Very-dark-cyan
+}
+
+.orange {
+  background-color: var(--Bright-orange);
+}
+
+.cyan {
+  background-color: var(--Dark-cyan);
+}
+
+.dark-cyan {
+  background-color: var(--Very-dark-cyan);
+}
+
+p {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+
+}
+
+@media (min-width: 900px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .orange {
+    border-radius: 10px 0 0 10px;
+    margin-left: 25px;
+  }
+
+  .dark-cyan {
+    border-radius: 0 10px 10px 0;
+    margin-right: 25px;
+  }
+
+
+
+}
